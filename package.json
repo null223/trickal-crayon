@@ -1,0 +1,13 @@
+{
+  "name": "trickal-crayon",
+  "version": "1.0.0",
+  "description": "トリッカル・もちもちほっペ大作戦のクレヨン(バフ)管理ツール",
+  "main": "script.js",
+  "scripts": {
+    "compile": "node compile.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
