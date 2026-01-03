@@ -1,4 +1,4 @@
-# Trickal クレヨン管理ツール
+# Trickcal クレヨン管理ツール
 
 トリッカル・もちもちほっペ大作戦のクレヨン(バフ)管理ツール
 
@@ -33,7 +33,7 @@
 ## ファイル構成
 
 ```
-trickal/
+trickcal/
 ├── index.html          # メインHTML
 ├── style.css           # スタイルシート
 ├── script.js           # JavaScript（データ・ロジック）

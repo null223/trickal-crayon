@@ -1,4 +1,4 @@
-// Trickal Crayon Management System
+// Trickcal Crayon Management System
 // Data structure: Board → Buff Type → Characters
 // crayonData is loaded from crayonData.js
 
