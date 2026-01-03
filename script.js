@@ -171,6 +171,7 @@ function renderContent() {
 
             if (checkedCount === characters.length && characters.length > 0) {
                 countSpan.classList.add('all-completed');
+                characterList.classList.add('all-completed');
             }
 
             buffTitle.appendChild(titleText);
