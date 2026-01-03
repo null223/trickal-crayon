@@ -169,6 +169,9 @@ function renderContent() {
             countSpan.className = 'buff-count';
             countSpan.textContent = `x ${checkedCount}`;
 
+            const characterList = document.createElement('div');
+            characterList.className = 'character-list';
+
             if (checkedCount === characters.length && characters.length > 0) {
                 countSpan.classList.add('all-completed');
                 characterList.classList.add('all-completed');
@@ -177,9 +180,6 @@ function renderContent() {
             buffTitle.appendChild(titleText);
             buffTitle.appendChild(countSpan);
             buffGroup.appendChild(buffTitle);
-
-            const characterList = document.createElement('div');
-            characterList.className = 'character-list';
 
             filteredCharacters.forEach((character, index) => {
                 const characterSpan = document.createElement('span');
